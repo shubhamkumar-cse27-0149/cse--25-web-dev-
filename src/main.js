@@ -45,7 +45,6 @@ document.getElementById("toggleBtn").addEventListener("click", function () {
 if (paragraph.style.display === "none") {
 
 paragraph.style.display = "block";
-
 }
 
 else {
