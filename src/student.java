@@ -16,4 +16,5 @@ System.out.println(grade);
 System.out.println(salary);
 	}
 
+    
 }
