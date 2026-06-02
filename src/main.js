@@ -28,8 +28,6 @@ document.body.style.backgroundColor =
 
 };
 
-// Increase font size
-
 document.getElementById("fontSizeBtn").addEventListener("click", function () {
 
 fontSize += 2;
