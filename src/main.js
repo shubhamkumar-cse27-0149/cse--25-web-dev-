@@ -51,8 +51,6 @@ paragraph.style.display = "none";
 
 });
 
-// Reset page
-
 document.getElementById("resetBtn").addEventListener("click", function () {
 
 heading.innerHTML = "Welcome to JavaScript Lab";
