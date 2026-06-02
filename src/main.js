@@ -38,8 +38,6 @@ paragraph.style.fontSize = fontSize + "px";
 
 });
 
-// Show/Hide paragraph
-
 document.getElementById("toggleBtn").addEventListener("click", function () {
 
 if (paragraph.style.display === "none") {
