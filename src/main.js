@@ -49,7 +49,6 @@ paragraph.style.display = "block";
 else {
 
 paragraph.style.display = "none";
-
 }
 
 });
