@@ -18,8 +18,6 @@ heading.innerHTML = input.value;
 
 });
 
-// Change background color
-
 document.getElementById("bgColorBtn").onclick = function () {
 
 document.body.style.backgroundColor =
