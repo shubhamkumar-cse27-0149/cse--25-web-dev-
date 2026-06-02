@@ -12,8 +12,6 @@ function App() {
 <Student name="Rohit" course="B.Tech" marks="90"/>
 <Student name="Mohit" course="M.Tech" marks="95"/>
 <Student name="Raj" course="MCA" marks="98"/>
-
-    
     <iframe src="https://www.youtube.com/embed/KWnmLK69EII" allowFullScreen></iframe><br></br>
     <iframe src="https://www.youtube.com/embed/WBqYqgs3hOg"></iframe><br></br>
     <iframe src="https://www.youtube.com/embed/hoNb6HuNmU0?list=RDhoNb6HuNmU0&start_radio=1"></iframe>
