@@ -11,11 +11,8 @@ document.getElementById("changeTextBtn").addEventListener("click", function () {
 if (input.value !== "") {
 
 heading.innerHTML = input.value;
-
 }
-
 });
-
 document.getElementById("bgColorBtn").onclick = function () {
 
 document.body.style.backgroundColor =
