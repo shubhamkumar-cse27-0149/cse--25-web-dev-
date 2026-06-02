@@ -1,42 +1,37 @@
-export default function TravelWebsite() {
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import heroImg from './assets/hero.png'
+import './App.css'
+import Student from './Student'
+function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-center p-6">
-      
-      {/* Heading */}
-      <h1 className="text-5xl font-bold text-sky-300 mb-8">
-        My Travel Website
-      </h1>
+    <>
+    <h2>student information</h2>
+<Student name="Rohit" course="B.Tech" marks="90"/>
+<Student name="Mohit" course="M.Tech" marks="95"/>
+<Student name="Raj" course="MCA" marks="98"/>
 
-      {/* Images Section */}
-      <div className="flex flex-wrap justify-center gap-6 mb-8">
-        
-        <div className="border-4 border-sky-200 rounded-2xl overflow-hidden shadow-lg">
-          <img
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
-            alt="Beach"
-            className="w-[350px] h-[220px] object-cover"
-          />
-        </div>
-
-        <div className="border-4 border-sky-200 rounded-2xl overflow-hidden shadow-lg">
-          <img
-            src="https://images.unsplash.com/photo-1493558103817-58b2924bce98"
-            alt="Travel"
-            className="w-[350px] h-[220px] object-cover"
-          />
-        </div>
-      </div>
-
-      {/* Description */}
-      <p className="text-gray-500 text-center max-w-2xl text-lg mb-8">
-        Travelling helps us explore new places, experience different cultures,
-        and create unforgettable memories with friends and family.
-      </p>
-
-      {/* Button */}
-      <button className="bg-sky-300 hover:bg-sky-400 text-white px-8 py-3 rounded-xl text-lg font-semibold shadow-md transition">
-        Explore
-      </button>
-    </div>
-  );
+    
+    <iframe src="https://www.youtube.com/embed/KWnmLK69EII" allowFullScreen></iframe><br></br>
+    <iframe src="https://www.youtube.com/embed/WBqYqgs3hOg"></iframe><br></br>
+    <iframe src="https://www.youtube.com/embed/hoNb6HuNmU0?list=RDhoNb6HuNmU0&start_radio=1"></iframe>
+   <h1>Welcome to my Web Pages of Abes</h1>
+   <h2>Hello</h2>
+   <p>Hello Rohit Sir</p>
+   <img src="https://images.pexels.com/photos/36578421/pexels-photo-36578421.jpeg"></img>
+   <audio controls>
+    <source src="" type="audio/mp3" ></source>
+   </audio>
+   
+   <video controls>
+    <source src="" type="video/mp4"></source>
+   </video>
+   <Student/>
+   </>
+  )
 }
+
+export default App
