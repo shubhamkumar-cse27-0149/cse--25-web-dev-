@@ -3,9 +3,7 @@ let heading = document.getElementById("mainHeading");
 let paragraph = document.getElementById("paragraph");
 
 let input = document.getElementById("userInput");
-
 let fontSize = 16;
-
 document.getElementById("changeTextBtn").addEventListener("click", function () {
 
 if (input.value !== "") {
