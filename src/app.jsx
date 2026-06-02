@@ -29,7 +29,7 @@ function App() {
    <video controls>
     <source src="" type="video/mp4"></source>
    </video>
-   <Student/>
+   
    </>
   )
 }
